@@ -1,0 +1,31 @@
+name: deped_reading_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4  # Add this for SQLite functionality
+  path: ^1.8.0  # Required for locating the database file
+  firebase_core: ^3.12.0
+  firebase_auth: ^5.5.0
+
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.1
+  google_fonts: ^6.2.1
+  flutter_launcher_icons: ^0.14.3
+  cloud_firestore: ^5.6.4
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lotties/
+    - assets/logos/
